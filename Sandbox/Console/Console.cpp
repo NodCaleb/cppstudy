@@ -12,6 +12,11 @@ int main()
 
     int d = 0xFF & 0x3F << 10;
 
+    //Bit toggl
+    int e = 0xAA;
+    int f = e ^ 1 << 6;
+    int g = f ^ 1 << 6;
+
     std::cout << "Hello World!\n";
 }
 
